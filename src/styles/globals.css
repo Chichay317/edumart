@@ -2,26 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  body {
+    @apply font-montserrat text-base font-medium;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.cl-signUp-start {
+  padding: 30px 30px;
+}
+
+.cl-card {
+  display: block;
+}
+
+.cl-main {
+  margin-top: 50px;
+}
+
+.cl-footer {
+  margin-top: 15px;
+}
+
+.cl-formButtonPrimary {
+  background-color: #0a1930;
+}
+
+.cl-formButtonPrimary:hover {
+  background-color: #0a1930;
+}
+
+.cl-internal-b3fm6y {
+  background-color: #0a1930;
+}
+
+.cl-footerActionLink {
+  color: #0a1930;
+}
+
+.cl-footerActionLink:hover {
+  color: #0a1930;
+  text-decoration: underline;
+}
+
+.cl-identityPreview {
+  margin-top: 20px;
 }

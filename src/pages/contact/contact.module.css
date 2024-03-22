@@ -1,0 +1,19 @@
+.contactFormLabel {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.contactFormInput {
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  width: 500px;
+  padding: 6px 8px;
+  outline: none;
+}
+
+.contactFormGroup {
+  margin-bottom: 30px;
+}
